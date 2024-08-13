@@ -2,7 +2,7 @@ import Logo from "./../../images/logo_green.png";
 
 function TopSection() {
     return (
-        <section className="flex items-center justify-between px-2 pt-3 text-xs sm:px-4">
+        <section className="flex items-center justify-between px-2 pt-3 text-xs sm:px-4 dark:text-gray-400">
             <div className="flex flex-col">
                 <div className="w-16"><img src={Logo} alt="..." /></div>
                 <div>Deliver To Choose Ad..</div>

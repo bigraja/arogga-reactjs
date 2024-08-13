@@ -28,7 +28,7 @@ function HealthCare() {
             <CategorySection categorys={categorys} />
 
             <section className="py-3 my-2" >
-                <div className="flex justify-between px-2 font-medium sm:px-4">
+                <div className="flex justify-between px-2 font-medium sm:px-4 dark:text-white">
                     <h3>All Brands</h3>
                     <Link href="/" className="text-sm">see all</Link>
                 </div>
@@ -46,7 +46,7 @@ function HealthCare() {
                 </div>
             </section>
 
-            <ProductsSection products={products} title="Clearance Sales" link="/" color="#000" backgroundColor="#fff" />
+            <ProductsSection products={products} title="Clearance Sales" link="/" color="#" backgroundColor="#" />
         </>
     );
 }

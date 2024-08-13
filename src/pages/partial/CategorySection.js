@@ -14,7 +14,7 @@ function CategorySection({ categorys }) {
     })
 
     return (
-        <section className="px-2 sm:px-4">
+        <section className="px-2 sm:px-4 dark:text-white">
             <h3 className="py-4 font-bold">Category</h3>
             <div className="grid grid-cols-4 gap-3 text-center">
 

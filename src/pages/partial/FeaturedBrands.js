@@ -7,7 +7,7 @@ function FeaturedBrands({ brands }) {
             {
                 brands.map((brand, index) => {
                     return (
-                        <div className="w-24 h-24 rounded-full shadow" key={index}>
+                        <div className="w-24 h-24 rounded-full shadow dark:bg-gray-900 dark:shadow-gray-800" key={index}>
                             <img src={brand.image} alt={brand.alt} className="p-4 mx-auto max-w-24 max-h-24" />
                         </div>
                     )

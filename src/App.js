@@ -6,8 +6,6 @@ import Beauty from "./pages/Beauty";
 import HealthCare from "./pages/HealthCare";
 import Account from "./pages/Account";
 
-
-
 function App() {
   return (
     <BrowserRouter>

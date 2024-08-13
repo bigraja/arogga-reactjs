@@ -17,8 +17,8 @@ function BottomMenu({ menu }) {
     });
 
     return (
-        <div className="fixed bottom-0 w-full bg-white">
-            <div className="border-x max-w-[45rem] mx-auto border-t h-20">
+        <div className="fixed bottom-0 w-full">
+            <div className="border-x max-w-[45rem] mx-auto border-t h-20 bg-white dark:border-gray-700 dark:bg-black">
                 <div className="flex justify-between h-full px-2 text-sm font-semibold text-[#8693a6]">
 
                     {menuItems}

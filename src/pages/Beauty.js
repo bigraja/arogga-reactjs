@@ -30,11 +30,11 @@ function Beauty() {
             <SearchSection />
             <SliderSection carouselImages={carouselImages} />
 
-            <ProductsSection products={products} title="Top Trending Products" link="/" color="#000" backgroundColor="#fff" />
+            <ProductsSection products={products} title="Top Trending Products" link="/" color="#" backgroundColor="#" />
 
             {/* top Deals */}
 
-            <ProductsSection products={products2} title="Newly Lanched Items" link="/" color="#000" backgroundColor="#fff" />
+            <ProductsSection products={products2} title="Newly Lanched Items" link="/" color="#" backgroundColor="#" />
             <ProductsSection products={products3} title="All About Your Face" link="/" color="#eca8cd" backgroundColor="#eca8cd1a" />
 
             <section className="py-3 my-2" >

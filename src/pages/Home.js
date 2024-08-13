@@ -65,7 +65,7 @@ function Home() {
             <SearchSection />
             <SliderSection carouselImages={carouselImages} />
             <ActionBoxSection actionBoxes={actionBoxes} />
-            <ProductsSection products={products} title="Best Selling Products" link="/" color="#000" backgroundColor="#fff" />
+            <ProductsSection products={products} title="Best Selling Products" link="/" color="#" backgroundColor="#" />
 
             <div className="p-2 mx-2 mt-4 bg-[#fd81811a] rounded-lg text-[#fd6a6a] items-center justify-between sm:mx-4 flex">
                 <span>
@@ -87,8 +87,8 @@ function Home() {
 
             <FeaturedBrands brands={brands} />
 
-            <ProductsSection products={products} title="Newly Launched Iems" link="/" color="#000" backgroundColor="#fff" />
-            <ProductsSection products={products2} title="Everyday Essentials" link="/" color="#000" backgroundColor="#fff" />
+            <ProductsSection products={products} title="Newly Launched Iems" link="/" color="#" backgroundColor="#" />
+            <ProductsSection products={products2} title="Everyday Essentials" link="/" color="#" backgroundColor="#" />
             <ProductsSection products={products3} title="Summer Deals of the Week" link="/" color="#0da2b4" backgroundColor="#0da2b41a" />
 
             <div className="px-2 my-4 sm:px-4">
@@ -98,9 +98,9 @@ function Home() {
             <ProductsSection products={products4} title="Baby Care" link="/" color="#0b600e" backgroundColor="#0b600e1a" />
             <ProductsSection products={products5} title="Cat Food" link="/" color="#eca8cd" backgroundColor="#eca8cd1a" />
             <ProductsSection products={products6} title="Kitten Food" link="/" color="#48c3c5" backgroundColor="#48c3c51a" />
-            <ProductsSection products={products7} title="Antiseptic Cream & Spray" link="/" color="#000 " backgroundColor="#fff" />
+            <ProductsSection products={products7} title="Antiseptic Cream & Spray" link="/" color="#" backgroundColor="#" />
             <ProductsSection products={products8} title="Diabetes Care" link="/" color="#ba880d " backgroundColor="#ba880d1a" />
-            <ProductsSection products={products9} title="Beauty Suppliments" link="/" color="#000 " backgroundColor="#fff" />
+            <ProductsSection products={products9} title="Beauty Suppliments" link="/" color="#" backgroundColor="#" />
 
 
         </>

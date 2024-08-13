@@ -8,12 +8,12 @@ function Layout() {
 
     return (
         <>
-            <div className="border-x max-w-[45rem] mx-auto">
+            <div className="border-x dark:border-gray-700 max-w-[45rem] min-h-[90vh] mx-auto">
                 <Outlet />
             </div>
 
             {/* space */}
-            <div className="h-20"></div>
+            <div className="h-20 dark:bg-black"></div>
 
             {/* bottom menu */}
             <BottomMenu menu={bottomMenu} />
