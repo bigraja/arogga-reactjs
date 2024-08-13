@@ -1,7 +1,7 @@
-# Getting Started with Create React App
+# Arogga mobile web app with light dark mode
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
+This app demo hear [Light Mode](http://arogga.rf.gd)
+This app demo hear [Dark Mode](http://arogga-dark.rf.gd)
 ## Available Scripts
 
 In the project directory, you can run:
